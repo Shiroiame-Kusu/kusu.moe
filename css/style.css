@@ -60,30 +60,36 @@ h1,h2,h3,h4 {
     transition: ease;
 }
 
-.btn-primary {
+.btn1 {
     padding: 12px 40px;
     transition: ease;
+    border: none;
+    background:#8ef7ff;
 }
 
-.btn-primary:hover {
+.btn1:hover {
     box-shadow: 5px -2px 15px 0px rgb(203, 221, 232);
 }
 
-.btn-secondary {
+.btn2 {
     padding: 12px 40px;
     transition: ease;
+    border: none;
+    background:rgb(230, 230, 230);
 }
 
-.btn-secondary:hover {
+.btn2:hover {
     box-shadow: 5px -2px 15px 0px rgb(203, 221, 232);
 }
 
-.btn-success {
+.btn3 {
     padding: 12px 40px;
     transition: ease;
+    border: none;
+    background:#ff89f1;
 }
 
-.btn-success:hover {
+.btn3:hover {
     box-shadow: 5px -2px 15px 0px rgb(203, 221, 232);
 }
 
