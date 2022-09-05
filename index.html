@@ -72,7 +72,7 @@
     <script>
         if ("serviceWorker" in navigator) {
             window.addEventListener("load", function () {
-                navigator.serviceWorker.register("sw.js");
+                navigator.serviceWorker.register(window.location.protocol + "//" + window.location.host + "/sw.js");
             });
         }
     </script>    
