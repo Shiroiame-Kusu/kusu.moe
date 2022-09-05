@@ -17,6 +17,7 @@
             "/upgrade-your-browser/index.html?referrer=" + encodeURIComponent(window.location.href);
     </script>
     <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
     <!--PWA is Still TD/NF-->
 </head>
 
@@ -67,4 +68,13 @@
     <!-- end_aplayer -->
     <script defer src="./js/bootstrap.min.js"></script>
     <script src="./js/v3.js"></script>
+    <!-- sw.js -->
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker.register("sw.js");
+            });
+        }
+    </script>    
+</body>
 </html>
