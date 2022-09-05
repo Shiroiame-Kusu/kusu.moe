@@ -1,0 +1,2 @@
+# kusu.moe
+ Kusu Redirecting
