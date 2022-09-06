@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/APlayer.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/preload-iro.css">
     <!-- IE Out -->
     <script>
         if ( /*@cc_on!@*/ false || (!!window.MSInputMethodContext && !!document.documentMode)) window.location.href =
@@ -22,6 +23,14 @@
 </head>
 
 <body>
+    <div id="preload-customize">
+        <div id="preload">
+            <li data-id="3" class="active">
+                <div id="preloader_3" >
+                </div>
+            </li>
+    </div>
+    </div>
     <div id="main" class="container">
         <div class="row my-card justify-content-center">
             <div class="col-lg-4 photo-bg"></div>
@@ -58,7 +67,7 @@
             </div>
         </div>
     </div>
-    <div id="aplayer" class="aplayer" data-order="random" data-id="7533625421" data-type="playlist" data-fixed="true" data-autoplay="false" data-volume="0.8"></div>
+    <div id="aplayer" class="aplayer" data-order="random" data-id="7533625421" data-type="playlist" data-fixed="true" data-autoplay="false" data-volume="0.3"></div>
     <!-- aplayer -->
     <noscript>
         <div class="noscript fixed-top">请开启 JavaScript</div>

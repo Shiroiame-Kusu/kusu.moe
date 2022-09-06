@@ -3,6 +3,14 @@ var final_version = 'Ver 1.5'
 
 var windowWidth = $(window).width();
 var meting_api = 'https://music-api.bwmc.live/?type=:type&id=:id';
+window.addEventListener('load', function () {
+
+    //载入动画
+    //Preload Animation
+    $('.preload-customize').attr('class', 'loaded');
+    //Sakurairo Preload Animation
+    $('#preload').attr('class', 'loaded');
+})
 console.clear();
 console.log(`Kusu.moe Redirecting
 Based On kaygb-v3`)
