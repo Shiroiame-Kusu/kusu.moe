@@ -55,18 +55,20 @@ h1,h2,h3,h4 {
 
 
 .btn {
-    border-radius: 0;
+    border-radius: 5px;
     margin: 5px 0;
-    width: 100%;
-    padding: 12px 40px;
+    width: 30%;
+    height: 50px;
+    padding: 12px;
     transition: ease;
 }
 
 .btn1 {
-    padding: 12px 40px;
+    padding: 12px;
     transition: ease;
     border: none;
-    background:#8ef7ff;
+    background:#8ee5ff;
+    margin-left:15px;
 }
 
 .btn1:hover {
@@ -74,10 +76,12 @@ h1,h2,h3,h4 {
 }
 
 .btn2 {
-    padding: 12px 40px;
+    padding: 12px ;
     transition: ease;
     border: none;
     background:rgb(230, 230, 230);
+    margin-left:5px;
+    margin-right:5px;
 }
 
 .btn2:hover {
@@ -85,7 +89,7 @@ h1,h2,h3,h4 {
 }
 
 .btn3 {
-    padding: 12px 40px;
+    padding: 12px;
     transition: ease;
     border: none;
     background:#ff89f1;
