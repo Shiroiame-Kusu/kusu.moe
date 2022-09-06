@@ -38,6 +38,8 @@ h1,h2,h3,h4 {
     padding: 80px 80px 0px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
 }
 
 .container {
