@@ -14,6 +14,13 @@ window.addEventListener('load', function () {
 console.clear();
 console.log(`Kusu.moe Redirecting
 Based On kaygb-v3`)
+var tempDate = new Date();
+var day = tempDate.getDay();
+if(day == 4){
+    var element = document.createElement("script");
+    element.src = "./js/KFC-crazy-thursday.js";
+    document.body.appendChild(element);
+}
 var styleTitle1 = `
 font-size: 20px;
 font-weight: 600;
