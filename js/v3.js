@@ -11,6 +11,31 @@ window.addEventListener('load', function () {
     //Sakurairo Preload Animation
     $('#preload').attr('class', 'loaded');
 })
+
+//Forked from Kusunoki
+//Based On MIT License
+var myDate = new Date;
+var mon = myDate.getMonth() + 1;
+var date = myDate.getDate();
+var days = ['4.4', '5.12', '7.7', '9.9', '9.18', '12.13'];
+for (var day of days) {
+    var d = day.split('.');
+    if (mon == d[0] && date == d[1]) {
+        document.write(
+            '<style>html{-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);_filter:none}</style>'
+        )
+        var ImportantDateNoticeStyle = document.getElementById("footer")
+        ImportantDateNoticeStyle.innerHTML = ImportantDateNoticeStyle.innerHTML + '<style>#ImportantDateNotice{font-size:18px;}</style>'
+        var ImportantDateNotice =  document.getElementById("ImportantDateNotice")
+        ImportantDateNotice.innerHTML = ImportantDateNotice.innerHTML + '今天是国家纪念日，本站默认启用纪念模式'
+    }
+    else{
+        var KFC = document.createElement("script");
+        KFC.src = "https://cdn.kusu.moe/KFC-Crazy-Thursday/KFC-crazy-thursday.js";
+        document.body.appendChild(KFC);
+    }
+}
+
 console.clear();
 console.log(`Kusu.moe Redirecting
 Based On kaygb-v3`)
